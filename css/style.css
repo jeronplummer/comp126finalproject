@@ -355,7 +355,10 @@ h1{
     color:  #0a1a29;
     font-family: 'Lato', sans-serif;
     position: relative;
-    font-size: 6rem;
+    font-size: 15vmin;
     line-height: 0.9;
     text-align: center;
+}
+.nav-link{
+    font-size: 3vmin;
 }
