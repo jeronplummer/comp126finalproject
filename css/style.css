@@ -126,69 +126,6 @@ body{
     background-color: #2e3e47;
     color: #c59539;
 }
-.store{
-    background-image: url(../images/storeheading.jpeg);
-    height: 50vh;
-    min-height: 10rem;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    margin-bottom: 10px;
-    opacity: 80%;
-}
-
-.jobs {
-    background-image: url(../images/jobsheading.jpeg);
-    height: 50vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    margin-bottom: 10px;
-    opacity: 80%;
-}
-
-.whoweare {
-    background-image: url(../images/bradshawgirls.png);
-    height: 50vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding: 0;
-    margin-bottom: 10px;
-    opacity: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.whereweare {
-    background-image: url(../images/fieldwork.jpg);
-    height: 50vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding: 0;
-    margin-bottom: 10px;
-    opacity: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.cart {
-    background-image: url(../images/boxcart.png);
-    height: 50vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding: 0;
-    margin-bottom: 10px;
-    opacity: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .circleframe {
     border-radius: 50%;
@@ -253,6 +190,121 @@ body{
 
 .white{
     background-color: white;
+}
+
+.jobs {
+    height: 20rem;
+    min-height: 10rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jobs::before {  
+    content: "";
+    background-image: url(../images/jobsheading.jpeg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.7;
+}
+
+.whoweare {
+    height: 20rem;
+    min-height: 10rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.whoweare::before {  
+    content: "";
+    background-image: url(../images/bradshawgirls.png);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.7;
+}
+
+.whereweare {
+    height: 20rem;
+    min-height: 10rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.whereweare::before {  
+    content: "";
+    background-image: url(../images/fieldwork.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.7;
+}
+
+.cart {
+    height: 20rem;
+    min-height: 10rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart::before {  
+    content: "";
+    background-image: url(../images/boxcart.png);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.7;
+}
+
+.store {
+    height: 20rem;
+    min-height: 10rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.store::before {  
+    content: "";
+    background-image: url(../images/storeheading.jpeg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.7;
 }
 
 .welcome{
