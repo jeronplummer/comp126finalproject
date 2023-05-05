@@ -267,7 +267,7 @@ body{
 }
 .welcome::before {  
     content: "";
-    background-image: url(/images/sunrise.png);
+    background-image: url(../images/sunrise.png);
     background-size: cover;
     position: absolute;
     top: 0px;
